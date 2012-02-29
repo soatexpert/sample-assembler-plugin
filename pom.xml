@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.jetoile.maven.sample</groupId>
+    <groupId>fr.soat.maven.sample</groupId>
     <artifactId>sample-assembler-plugin</artifactId>
     <version>1.0-SNAPSHOT</version>
 
@@ -52,7 +52,7 @@
                     <daemons>
                         <daemon>
                             <id>mainService</id>
-                            <mainClass>com.jetoile.maven.sample.FooClass</mainClass>
+                            <mainClass>fr.soat.maven.sample.FooClass</mainClass>
                             <commandLineArguments>
                                 <commandLineArgument>start</commandLineArgument>
                             </commandLineArguments>
@@ -87,7 +87,7 @@
                 <configuration>
                     <programs>
                         <program>
-                            <mainClass>com.jetoile.maven.sample.FooClass</mainClass>
+                            <mainClass>fr.soat.maven.sample.FooClass</mainClass>
                             <name>main</name>
                         </program>
                     </programs>
